@@ -1,0 +1,41 @@
+Write common sides and differences between merge and rebase commands. 
+Write pros and cons for merge and rebase. Describe situations for preferably usage of these commands. 
+Use additional materials for this task. 
+
+
+First off all we need to understand that both commands exist to send changes from one branch 
+to another but make this with differences. 
+
+Rebase - reapplies commits on top of another base branch, 
+Merge - joins two or more development histories together.
+The key difference between merge and rebase is that while merge preserves history 
+as it happened, rebase rewrites it.
+
+commit A ->
+           |-> merge commit C - merge
+commit B ->
+
+          > workbranch D 
+        /
+commit A ->
+           |-> merge commit C    - rebase
+commit B ->
+
+
+In practice rebase used for possibility to continue work of another teammember.
+
+Just as in the merge case, in rebase we must first make sure our local and remote master 
+branches are in sync. Then instead of making a regular merge preserving history 
+we can integrate all changes using rebase and rewrite history.
+
+Also its important to know about interactive rebase which gives us next possibilities:
+
+# r, reword <commit> = use commit, but edit the commit message
+# e, edit <commit> = use commit, but stop for amending
+# s, squash <commit> = use commit, but meld into previous commit
+# f, fixup <commit> = like "squash", but discard this commit's log message
+
+There are thoughts that better use merge rather than rebase, maybe it’s an approach 
+to not use tools that not comfortable for you. 
+But maybe it's better to learn a new thing which can bring your more advantages 
+and can improve you as an good specialist...

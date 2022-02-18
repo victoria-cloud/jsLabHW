@@ -1,0 +1,27 @@
+{
+  "name": "ui-with-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "cy:headless": "npx cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-chai-expect": "^2.2.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}
