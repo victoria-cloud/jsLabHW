@@ -1,0 +1,35 @@
+1.git clone + ssh key from gitlab repo
+
+2.cd - change directory, ls - to list all available folder/files
+
+3.git status - to check branch and see untracked files/changes
+
+4.git add . - to track changes in all project files
+
+5.git remote -v - to see possible commands for push and fetch 
+
+6.git log - all commits history
+
+7.git checkout -b newbranchname - create new branch and use it
+
+8.git switch branchname - switch branch 
+
+9.git merge branchname - union 2 different branches with all changes 
+
+10.git rebase - taking all the changes that were committed on one branch and applying them to a new branch.
+
+11.ls - to list all available folder/files 
+
+12. git rebase -i 
+
+13. git rebase -i HEAD~3 - to modify 3 last commits via redactor
+
+14. git commit --amend - to modife only last commit.
+
+15. git rebase --continue - change commit message and exit editor. 
+
+16. git rebase --abort - to cancel rebase. 
+
+17.git push - to synchronize changes in local repo with remote (pull - to synchronize with changes were made by another member)
+
+18. git reflog - history of all used commands.

@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://finance.yahoo.com",
+  "reporter": "spec",
+  "defaultCommandTimeout": 10000,
+  "responseTimeout": 10000,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "watchForFileChanges": false,
+  "retries": 0,
+  "videosFolder": "cypress/output/video",
+  "screenshotsFolder": "cypress/output/screenshot",
+  "integrationFolder": "cypress/tests"
+}

@@ -1,0 +1,9 @@
+{
+    "cucumberautocomplete.steps": [
+        "BDD_UI_testing/step_definitions/*.js"        
+    ],
+    "cucumberautocomplete.syncfeatures":"BDD_UI_testing/features/**/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "terminal.integrated.automationShell.windows": "",
+    "git.ignoreLimitWarning": true
+}

@@ -1,0 +1,4 @@
+.idea
+node_modules/
+cypress/output/video/
+cypress/output/screenshot/
